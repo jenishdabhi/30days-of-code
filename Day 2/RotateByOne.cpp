@@ -2,10 +2,17 @@
 using namespace std;
 void rotate(int arr[],int n){
 
-    for(int i=0;i<n;i++)
+    int i=0;
+    int j=n-1;
+    while (i!=j)
     {
-        for(int j=)
+        swap(arr[i],arr[j]);
+        i++;
     }
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<endl;
+    }
+    
 }
 int main()
 {
@@ -13,6 +20,7 @@ int main()
     int arr[]={2,4,6,8,10};
     int n=sizeof(arr)/sizeof(arr[0]);
     rotate(arr,n);
+    
 
  return 0;
 }
