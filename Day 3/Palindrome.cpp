@@ -16,7 +16,7 @@ void palindrome(int arr[], int n)
     if (flag == 1)
         cout << "Array is not Palindrome";
     else
-        cout << "Array is Palindrome\n";
+        cout << "Array is Palindrome"<<endl;
 
 }
 int main()
